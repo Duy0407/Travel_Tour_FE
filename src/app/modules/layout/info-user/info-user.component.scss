@@ -1,0 +1,29 @@
+.info{
+    background: #FFF;
+}
+
+.info .info_user{
+    padding: 10px 16px 12px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E6E1E6;
+}
+.info_user-img{
+    width: 60px;height: 60px;
+}
+
+.info_user-img img{
+    border-radius: 50%;
+}
+.option_select-block{
+    padding: 10px 8px;
+    border-radius: 8px;
+}
+
+.option_select-block:hover{
+    background: #E8F4FC;
+}
+
+.option_select-block-icon{
+    width: 22px;height: 22px;
+}

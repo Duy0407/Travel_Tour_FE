@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Petrona:wght@700&family=Rubik+Iso&display=swap');
+header{
+    background: #FFF;
+    padding: 20px 40px;
+}
+
+header .header{
+    justify-content: space-between;
+}
+
+.header_logo span{
+    font-family: 'Petrona', serif;
+    font-family: 'Rubik Iso', cursive; 
+    font-size: 30px;
+}
+
+.header_logo .logo_text-travel{
+    color: var(--main-color);
+}
+
+.header_logo .logo_text-tour{
+    color: #ffc910;
+    font-style: italic;
+}
+
+.header_btn div button{
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--main-color);
+}
+
+.header_btn .header_btn-login button {
+    background: var(--main-color);
+    color: #FFF;
+    margin-right: 8px;
+}
+
+.header_btn .header_btn-register button {
+    color: var(--main-color);
+}
+
+::ng-deep .header_navigate .mat-mdc-tab-header.mat-mdc-tab-nav-bar-stretch-tabs .mat-mdc-tab-link{
+    flex-grow: unset;
+}
+
+.header_navigate{margin-top: 14px;}
+
+.info{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.info_img{
+    width: 40px;
+    height: 40px;
+}
+
+.info_img img{
+    border-radius: 50%;
+}
+
+.info_icon{
+    width: 24px;height: 24px;
+    margin-left: 5px;
+}
+
+::ng-deep .cdk-overlay-pane{
+    max-width: unset;
+    width: 343px;
+}
+
+::ng-deep .cdk-overlay-pane .mat-mdc-menu-panel{
+    max-width: unset;
+    width: 100%;
+    border-radius: 8px;
+}
+

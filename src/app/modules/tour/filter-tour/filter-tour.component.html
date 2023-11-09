@@ -1,0 +1,59 @@
+<div id="filter" class="flex">
+
+    <div class="filter_one">
+        <div class="filter_one-live flex items-center">
+            <div class="filter_one-live-icon">
+                <img src="../../../../assets/images/live-view.svg" alt="">
+            </div>
+            <span class="text-sm pl-1.5">Where do you want to go</span>
+        </div>
+        <div class="filter_one-input">
+            <input type="text" placeholder="Thành phố">
+        </div>
+    </div>
+
+    <div class="filter_group flex justify-between items-center">
+
+        <div class="filter_group-one flex">
+            <div class="filter_two">
+                <div class="filter_one-live flex items-center">
+                    <div class="filter_one-live-icon">
+                        <img src="../../../../assets/images/car.svg" alt="">
+                    </div>
+                    <span class="text-sm pl-1.5">Departure day</span>
+                </div>
+        
+                <div class="filter_two-input">
+                    <mat-form-field>
+                        <input matInput [matDatepicker]="picker" placeholder="Enter departure date">
+                        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+        
+            </div>
+        
+            <div class="filter_three">
+                <div class="filter_one-live flex items-center">
+                    <div class="filter_one-live-icon">
+                        <img src="../../../../assets/images/map-pin.svg" alt="">
+                    </div>
+                    <span class="text-sm pl-1.5">Departure from</span>
+                </div>
+                <div class="filter_one-input">
+                    <input type="text" placeholder="Thành phố">
+                </div>
+            </div>
+        </div>
+
+        <div class="filter_btn">
+            <button mat-raised-button color="primary">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </button>
+        </div>
+    
+    </div>
+
+</div>

@@ -1,0 +1,86 @@
+<div class="profile">
+    <app-header [getIsNavigateHeader]="isNavigateHeader"></app-header>
+
+
+    <div class="profile_user">
+        <form action="">
+            <div class="info">
+
+                <div class="text-xl font-semibold mb-4">General information</div>
+                <div class="info_one mb-8">
+                    <div class="input_name w32">
+                        <div class="mb-2">Full Name <span class="error">*</span></div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="Full Name">
+                        </mat-form-field>
+                    </div>
+                    <div class="date_of_birth w32">
+                        <div class="mb-2">Date of birth</div>
+                        <mat-form-field appearance="outline">
+                            <input matInput [matDatepicker]="picker" placeholder="Enter departure date" readonly>
+                            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+                            <mat-datepicker #picker></mat-datepicker>
+                        </mat-form-field>
+                    </div>
+
+                    <div class="phone_number w32">
+                        <div class="mb-2">Phone</div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="Phone" type="number">
+                        </mat-form-field>
+                    </div>
+
+                    <div class="email w32">
+                        <div class="mb-2">Email <span class="error">*</span></div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="Email" type="email">
+                        </mat-form-field>
+                    </div>
+                </div>
+
+                <div class="text-xl font-semibold mb-4">Address</div>
+                <div class="info_two mb-8">
+                    <div class="city w32">
+                        <div class="mb-2">City</div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="City...">
+                        </mat-form-field>
+                    </div>
+
+                    <div class="district w32">
+                        <div class="mb-2">District</div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="District...">
+                        </mat-form-field>
+                    </div>
+
+                    <div class="wards w32">
+                        <div class="mb-2">Wards</div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="Wards...">
+                        </mat-form-field>
+                    </div>
+
+                    <div class="detailed_address w-full">
+                        <div class="mb-2">Detailed address</div>
+                        <mat-form-field appearance="outline">
+                            <input matInput placeholder="Detailed address...">
+                        </mat-form-field>
+                    </div>
+                </div>
+
+                <div class="text-xl font-semibold mb-4">Describe yourself</div>
+                <div class="info_three">
+                    <div class="description ">
+                        <div class="mb-2">Description</div>
+                        <mat-form-field appearance="outline">
+                            <textarea matInput placeholder="Description..."></textarea>
+                        </mat-form-field>
+                    </div>
+                </div>
+            </div>
+
+    
+        </form>
+    </div>
+</div>

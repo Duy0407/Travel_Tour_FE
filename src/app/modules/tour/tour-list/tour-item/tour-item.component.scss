@@ -1,0 +1,58 @@
+#item{
+    padding: 0 12px 32px;
+    width: 33%;
+}
+
+.tour_item-padding{
+    border: 1px solid #AEAAAF;
+    padding: 8px 8px 16px;
+    border-radius: 16px;
+}
+
+.tour_item-image{
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tour_item-infor{
+    margin-top: 16px;
+}
+
+.tour_item-infor-address{
+    margin-bottom: 8px;
+}
+
+.tour_item-infor .tour_item-infor-title{
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.infor-address-icon{
+    opacity: 0.8;
+}
+
+.infor-address-icon, .infor-member-icon, .infor-clock-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.infor-address-text, .infor-member-text, .infor-clock-text{
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.tour_item-infor-price{
+    text-align: right;
+    margin-top: 16px;
+}
+
+.tour_item-infor-price p{margin-bottom: 0;}
+
+
+.infor-price{
+    font-size: 18px;
+    font-weight: 700;
+    color: #DB242D;
+}
