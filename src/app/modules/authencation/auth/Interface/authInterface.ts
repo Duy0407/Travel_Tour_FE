@@ -10,5 +10,7 @@ export interface IAuthLogin{
 
 export interface IAuthRegister{
     email: string,
-    
+    password: string,
+    name: string,
+    phone: string,
 }

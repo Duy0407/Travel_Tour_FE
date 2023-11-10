@@ -26,6 +26,10 @@ img{
     @apply text-white;
     background: #00ff2ed4;
 }
-.success-snackbar > .mdc-snackbar__surface  {
+
+.error-snackbar {
+    @apply bg-red-500 text-white;
+}
+mat-snack-bar-container.mdc-snackbar > .mdc-snackbar__surface  {
     background: none !important;
 }

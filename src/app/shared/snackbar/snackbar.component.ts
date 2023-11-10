@@ -10,7 +10,7 @@ export class SnackbarComponent {
   constructor(private _snackBar: MatSnackBar){}
 
   openSnackBar(message: string, background: string){
-    const   config = new MatSnackBarConfig();
+    const config = new MatSnackBarConfig();
     config.duration = 3000,
     config.panelClass = [background];
     config.verticalPosition = 'top';
